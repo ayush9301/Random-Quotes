@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid red; */
+  transition: all ease-in-out 0.1s;
+
+}
+
+.container {
+  background-color: #f5efe7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.card {
+  height: 12rem;
+  width: 25rem;
+  padding: 1rem;
+  background: linear-gradient(to right, #1f2678, #437caf);
+  color: #fbf6e9;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 2rem;
+}
+
+svg {
+  height: 2.8rem;
+  width: 2.8rem;
+  fill: rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+button {
+  height: 3rem;
+  width: 3rem;
+  /* background-color: #F9C0AB; */
+  position: fixed;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* left: 10rem; */
+  top: 0.5rem;
+  padding: 7px;
+  border-radius: 100% ;
+  border: 2px solid rgb(38, 67, 132);
+  /* transform: rotate(120deg); */
+
+
+}
